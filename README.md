@@ -13,4 +13,10 @@ python main.py \
   --num_train_epochs=5.0 \
   --output_dir=/root/output/
   
+  The overall architecture is as follows.
+  ![Image text](https://github.com/Zhengxuru/charCNN-BERT-CRF/blob/master/charcnn_bert_crf.png)
+  
+  The architecture of CharCNN is as follows. 
+  ![Image text](https://github.com/Zhengxuru/charCNN-BERT-CRF/blob/master/charCNN.png)
+  
  You can shut down the character CNN or CRF by adding --use_char_representation=False or --use_crf=False
